@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver              # mysql驱动包
+    url: jdbc:mysql://localhost:3306/xg_goods?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai              # 数据库名称
+    username: root
+    password: root
+logging:
+  level:
+    cn.bdqn: debug
+mybatis:
+  mapper-locations: classpath:mapper/*/*.xml
+server:
+  port: 8082
+swagger:
+  base-package: cn.junang.controller
+  title: SpringBoot新冠物资项目接口
+  description: 该项目“基于SpringBoot新冠物资项目”
+  version: 1.1
+  terms-of-service-url: www.junang.cn
+  contact:
+    name: Mr.s°
+    email: 1561971578.com

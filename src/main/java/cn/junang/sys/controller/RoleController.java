@@ -1,0 +1,32 @@
+package cn.junang.sys.controller;
+
+import cn.junang.common.model.PageBean;
+import cn.junang.common.model.R;
+import cn.junang.sys.service.RoleService;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+/**
+ * @author Mr.s°
+ * @create 2020-07-03 8:54
+ */
+@RestController
+@RequestMapping("sys/role")
+public class RoleController {
+    private final RoleService roleService;
+
+    public RoleController(RoleService roleService) {
+        this.roleService = roleService;
+    }
+
+    @GetMapping("/{userId}")
+    public R assignRoles(@PathVariable("userId") Long userId) {
+        return roleService.assignRoles(userId);
+    }
+    @GetMapping
+    public R roles(String roleName, PageBean pageBean){
+        return roleService.roles(roleName,pageBean);
+    }
+}
