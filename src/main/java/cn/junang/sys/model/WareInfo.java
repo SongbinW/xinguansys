@@ -93,8 +93,7 @@ public class WareInfo {
      * This field corresponds to the database column ware_info.create_time
      *
      * @mbg.generated
-     */
-    @DateTimeFormat(pattern = "yyyy-MM-dd")
+     */@DateTimeFormat(pattern = "yyyy-MM-dd")
     @JsonFormat(pattern = "yyyy-MM-dd")
     private Date createTime;
 
