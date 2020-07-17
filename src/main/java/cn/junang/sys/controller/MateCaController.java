@@ -35,8 +35,8 @@ public class MateCaController {
     }
 
     @PostMapping
-    public R addMate(@RequestBody MateCaVo mateCaVo) {
-        return mateCaService.addMate(mateCaVo);
+    public R addMate(@RequestBody Matecategory matecategory) {
+        return mateCaService.addMate(matecategory);
     }
 
 

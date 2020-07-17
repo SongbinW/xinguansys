@@ -14,7 +14,7 @@ public interface MateCaService {
 
     R delMateById(Integer id);
 
-    R addMate(MateCaVo mateCaVo);
+    R addMate(Matecategory matecategory);
 
     R editMate(Matecategory matecategory);
 

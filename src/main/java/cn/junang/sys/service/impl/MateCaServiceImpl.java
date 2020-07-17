@@ -50,12 +50,11 @@ public class MateCaServiceImpl extends BaseService implements MateCaService {
     }
 
     @Override
-    public R addMate(MateCaVo mateCaVo) {
-        Matecategory matecategory = new Matecategory();
-        BeanUtils.copyProperties(mateCaVo,matecategory);
-        matecategory.setCreateTime(new Date());
-        matecategory.setModifiedTime(new Date());
-        matecategoryMapper.insert(matecategory);
+    public R addMate(Matecategory matecategory) {
+        if (isMateExist(matecategory.getSupName())) {
+            return R.error(RCode.INVE_NAME_REPEAT);
+        }
+        matecategoryMapper.insertSelective(matecategory);
         return R.ok();
     }
 

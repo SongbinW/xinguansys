@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="28dfdcaa-4d5a-45c0-b0b6-7f3fcbf942c7" name="Default Changelist" comment="">
+    <list default="true" id="28dfdcaa-4d5a-45c0-b0b6-7f3fcbf942c7" name="Default Changelist" comment="增加了Matecategory类上的时间格式">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/WareInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/WareInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/impl/InformationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/impl/InformationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/controller/MateCaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/controller/MateCaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/MateCaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/MateCaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/impl/MateCaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/impl/MateCaServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,6 +99,18 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="687" y="214" key="FileChooserDialogImpl" timestamp="1594971406971">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -93,38 +124,38 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="365" y="157" key="Github.UntrackedFilesDialog/0.0.1440.920@0.0.1440.920" timestamp="1594969085601" />
-    <state width="1395" height="369" key="GridCell.Tab.0.bottom" timestamp="1594972042347">
-      <screen x="0" y="0" width="1440" height="920" />
+    <state width="1867" height="256" key="GridCell.Tab.0.bottom" timestamp="1594975937499">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1395" height="369" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1594972042347" />
-    <state width="1395" height="369" key="GridCell.Tab.0.center" timestamp="1594972042347">
-      <screen x="0" y="0" width="1440" height="920" />
+    <state width="1867" height="256" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594975937499" />
+    <state width="1867" height="256" key="GridCell.Tab.0.center" timestamp="1594975937499">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1395" height="369" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1594972042347" />
-    <state width="1395" height="369" key="GridCell.Tab.0.left" timestamp="1594972042347">
-      <screen x="0" y="0" width="1440" height="920" />
+    <state width="1867" height="256" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594975937499" />
+    <state width="1867" height="256" key="GridCell.Tab.0.left" timestamp="1594975937499">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1395" height="369" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1594972042347" />
-    <state width="1395" height="369" key="GridCell.Tab.0.right" timestamp="1594972042347">
-      <screen x="0" y="0" width="1440" height="920" />
+    <state width="1867" height="256" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594975937499" />
+    <state width="1867" height="256" key="GridCell.Tab.0.right" timestamp="1594975937499">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1395" height="369" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1594972042347" />
-    <state width="1395" height="369" key="GridCell.Tab.1.bottom" timestamp="1594972042348">
-      <screen x="0" y="0" width="1440" height="920" />
+    <state width="1867" height="256" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594975937499" />
+    <state width="1867" height="256" key="GridCell.Tab.1.bottom" timestamp="1594975937499">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1395" height="369" key="GridCell.Tab.1.bottom/0.0.1440.920@0.0.1440.920" timestamp="1594972042348" />
-    <state width="1395" height="369" key="GridCell.Tab.1.center" timestamp="1594972042348">
-      <screen x="0" y="0" width="1440" height="920" />
+    <state width="1867" height="256" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594975937499" />
+    <state width="1867" height="256" key="GridCell.Tab.1.center" timestamp="1594975937499">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1395" height="369" key="GridCell.Tab.1.center/0.0.1440.920@0.0.1440.920" timestamp="1594972042348" />
-    <state width="1395" height="369" key="GridCell.Tab.1.left" timestamp="1594972042347">
-      <screen x="0" y="0" width="1440" height="920" />
+    <state width="1867" height="256" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594975937499" />
+    <state width="1867" height="256" key="GridCell.Tab.1.left" timestamp="1594975937499">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1395" height="369" key="GridCell.Tab.1.left/0.0.1440.920@0.0.1440.920" timestamp="1594972042347" />
-    <state width="1395" height="369" key="GridCell.Tab.1.right" timestamp="1594972042348">
-      <screen x="0" y="0" width="1440" height="920" />
+    <state width="1867" height="256" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594975937499" />
+    <state width="1867" height="256" key="GridCell.Tab.1.right" timestamp="1594975937499">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1395" height="369" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1594972042348" />
+    <state width="1867" height="256" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594975937499" />
     <state x="329" y="77" key="SettingsEditor" timestamp="1594971411006">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
