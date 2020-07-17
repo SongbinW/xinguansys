@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="28dfdcaa-4d5a-45c0-b0b6-7f3fcbf942c7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Donation_form.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Donation_form.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/InventoryInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/InventoryInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Inventory_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Inventory_info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Mate_category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Mate_category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Matecategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Matecategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/MsgInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/MsgInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Pur_application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Pur_application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Pur_information.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Pur_information.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Scrap_from.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Scrap_from.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/StockOutinfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/StockOutinfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Stock_outinfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Stock_outinfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/SysLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/SysLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/SysLoginLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/SysLoginLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/SysRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/SysRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/SysUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/SysUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/WareInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/WareInfo.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="593" y="357" key="Github.ShareDialog" timestamp="1594969078195">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="593" y="357" key="Github.ShareDialog/0.0.1440.920@0.0.1440.920" timestamp="1594969078195" />
+    <state x="365" y="157" key="Github.UntrackedFilesDialog" timestamp="1594969085601">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="365" y="157" key="Github.UntrackedFilesDialog/0.0.1440.920@0.0.1440.920" timestamp="1594969085601" />
+  </component>
+</project>
