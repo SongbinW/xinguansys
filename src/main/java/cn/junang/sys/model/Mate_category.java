@@ -42,6 +42,8 @@ public class Mate_category {
      *
      * @mbg.generated
      */
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
+    @JsonFormat(pattern = "yyyy-MM-dd")
     private Date modifiedTime;
 
     /**
