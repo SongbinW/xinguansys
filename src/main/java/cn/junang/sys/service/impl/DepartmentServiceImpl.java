@@ -2,10 +2,13 @@ package cn.junang.sys.service.impl;
 
 import cn.junang.common.model.R;
 import cn.junang.sys.mapper.DepartmentMapper;
+import cn.junang.sys.model.Department;
 import cn.junang.sys.model.DepartmentExample;
 import cn.junang.sys.service.DepartmentService;
 import com.sun.org.apache.bcel.internal.generic.NEW;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 /**
  * @author wchen
@@ -21,7 +24,7 @@ public class DepartmentServiceImpl implements DepartmentService {
 
     @Override
     public R getDeptAll() {
-        DepartmentExample departmentExample = new DepartmentExample();
-        return (R) departmentMapper.selectByExample(departmentExample);
+        List<Department> departments = departmentMapper.selectByExample(null);
+        return R.ok(departments);
     }
 }

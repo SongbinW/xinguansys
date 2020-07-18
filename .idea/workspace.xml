@@ -25,81 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28dfdcaa-4d5a-45c0-b0b6-7f3fcbf942c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/controller/DepartmentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/DepartmentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/impl/DepartmentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/Shiro/UserRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/Shiro/UserRealm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/Biz_supplierMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/ByuerMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/Chec_manageMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/Chec_planMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/Chec_reportMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/Donation_formMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/InventoryInfoMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/Inventory_infoMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/Mate_categoryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/MatecategoryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/MsgInfoMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/Pur_applicationMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/Pur_informationMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/Receipt_fromMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/Scrap_fromMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/StockOutinfoMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/Stock_outinfoMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/SysLogMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/SysLoginLogMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/SysResourcesMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/SysRoleMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/SysRoleResourcesMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/SysUserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/SysUserRoleMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/WareInfoMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Donation_form.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Donation_form.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/InventoryInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/InventoryInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Inventory_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Inventory_info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Mate_category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Mate_category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Matecategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Matecategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/MsgInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/MsgInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Pur_application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Pur_application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Pur_information.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Pur_information.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Scrap_from.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Scrap_from.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/StockOutinfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/StockOutinfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Stock_outinfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Stock_outinfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/SysLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/SysLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/SysLoginLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/SysLoginLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/SysRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/SysRole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/SysUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/SysUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/WareInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/WareInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/generator/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generator/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/Biz_supplierMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/ByuerMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/Chec_manageMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/Chec_planMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/Chec_reportMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/Donation_formMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/InventoryInfoMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/Inventory_infoMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/Mate_categoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/MatecategoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/MsgInfoMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/Pur_applicationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/Pur_informationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/Receipt_fromMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/Scrap_fromMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/StockOutinfoMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/Stock_outinfoMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysLogMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysLoginLogMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysResourcesMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysRoleMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysRoleResourcesMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysUserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysUserRoleMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/WareInfoMapper.xml" beforeDir="false" />
-    </list>
+    <list default="true" id="28dfdcaa-4d5a-45c0-b0b6-7f3fcbf942c7" name="Default Changelist" comment="王晨提交7.18部门" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -185,8 +111,16 @@
       <updated>1594971357504</updated>
       <workItem from="1594971358841" duration="53000" />
       <workItem from="1595038797525" duration="2088000" />
-      <workItem from="1595051821291" duration="3799000" />
+      <workItem from="1595051821291" duration="4345000" />
     </task>
+    <task id="LOCAL-00001" summary="王晨提交7.18部门">
+      <created>1595061707492</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595061707492</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +149,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="王晨提交7.18部门" />
+    <option name="LAST_COMMIT_MESSAGE" value="王晨提交7.18部门" />
   </component>
   <component name="WindowStateProjectService">
     <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1595060516884">
