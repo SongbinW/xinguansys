@@ -16,20 +16,102 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28dfdcaa-4d5a-45c0-b0b6-7f3fcbf942c7" name="Default Changelist" comment="增加了Matecategory类上的时间格式">
+    <list default="true" id="28dfdcaa-4d5a-45c0-b0b6-7f3fcbf942c7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/controller/DepartmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/DepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/impl/DepartmentServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/controller/MateCaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/controller/MateCaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/MateCaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/MateCaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/impl/MateCaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/impl/MateCaServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/Shiro/UserRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/Shiro/UserRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/Biz_supplierMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/ByuerMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/Chec_manageMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/Chec_planMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/Chec_reportMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/Donation_formMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/InventoryInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/Inventory_infoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/Mate_categoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/MatecategoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/MsgInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/Pur_applicationMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/Pur_informationMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/Receipt_fromMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/Scrap_fromMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/StockOutinfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/Stock_outinfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/SysLogMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/SysLoginLogMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/SysResourcesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/SysRoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/SysRoleResourcesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/SysUserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/SysUserRoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/mapper/WareInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Donation_form.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Donation_form.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/InventoryInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/InventoryInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Inventory_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Inventory_info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Mate_category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Mate_category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Matecategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Matecategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/MsgInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/MsgInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Pur_application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Pur_application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Pur_information.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Pur_information.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Scrap_from.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Scrap_from.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/StockOutinfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/StockOutinfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Stock_outinfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/Stock_outinfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/SysLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/SysLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/SysLoginLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/SysLoginLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/SysRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/SysRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/SysUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/SysUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/WareInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/model/WareInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/generator/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generator/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/Biz_supplierMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/ByuerMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/Chec_manageMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/Chec_planMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/Chec_reportMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/Donation_formMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/InventoryInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/Inventory_infoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/Mate_categoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/MatecategoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/MsgInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/Pur_applicationMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/Pur_informationMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/Receipt_fromMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/Scrap_fromMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/StockOutinfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/Stock_outinfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysLogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysLoginLogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysResourcesMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysRoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysRoleResourcesMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysUserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/SysUserRoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/sys/WareInfoMapper.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,9 +140,18 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/cn/junang/sys/dao" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\xinguansys\src\main\java\cn\junang\sys\dao" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="XinguanApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
@@ -93,6 +184,8 @@
       <option name="presentableId" value="Default" />
       <updated>1594971357504</updated>
       <workItem from="1594971358841" duration="53000" />
+      <workItem from="1595038797525" duration="2088000" />
+      <workItem from="1595051821291" duration="3799000" />
     </task>
     <servers />
   </component>
@@ -104,7 +197,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -112,6 +217,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1595060516884">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1595060516884" />
+    <state x="413" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595059864079">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1595059864079" />
     <state x="687" y="214" key="FileChooserDialogImpl" timestamp="1594971406971">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -124,41 +237,53 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="365" y="157" key="Github.UntrackedFilesDialog/0.0.1440.920@0.0.1440.920" timestamp="1594969085601" />
-    <state width="1867" height="256" key="GridCell.Tab.0.bottom" timestamp="1594975937499">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1323" height="312" key="GridCell.Tab.0.bottom" timestamp="1595061435424">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1867" height="256" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594975937499" />
-    <state width="1867" height="256" key="GridCell.Tab.0.center" timestamp="1594975937499">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1323" height="312" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1595061435424" />
+    <state width="1395" height="369" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1594972042347" />
+    <state width="1323" height="312" key="GridCell.Tab.0.center" timestamp="1595061435424">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1867" height="256" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594975937499" />
-    <state width="1867" height="256" key="GridCell.Tab.0.left" timestamp="1594975937499">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1323" height="312" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1595061435424" />
+    <state width="1395" height="369" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1594972042347" />
+    <state width="1323" height="312" key="GridCell.Tab.0.left" timestamp="1595061435424">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1867" height="256" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594975937499" />
-    <state width="1867" height="256" key="GridCell.Tab.0.right" timestamp="1594975937499">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1323" height="312" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1595061435424" />
+    <state width="1395" height="369" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1594972042347" />
+    <state width="1323" height="312" key="GridCell.Tab.0.right" timestamp="1595061435424">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1867" height="256" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594975937499" />
-    <state width="1867" height="256" key="GridCell.Tab.1.bottom" timestamp="1594975937499">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1323" height="312" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1595061435424" />
+    <state width="1395" height="369" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1594972042347" />
+    <state width="1323" height="312" key="GridCell.Tab.1.bottom" timestamp="1595061435424">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1867" height="256" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594975937499" />
-    <state width="1867" height="256" key="GridCell.Tab.1.center" timestamp="1594975937499">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1323" height="312" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1595061435424" />
+    <state width="1395" height="369" key="GridCell.Tab.1.bottom/0.0.1440.920@0.0.1440.920" timestamp="1594972042348" />
+    <state width="1323" height="312" key="GridCell.Tab.1.center" timestamp="1595061435424">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1867" height="256" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594975937499" />
-    <state width="1867" height="256" key="GridCell.Tab.1.left" timestamp="1594975937499">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1323" height="312" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1595061435424" />
+    <state width="1395" height="369" key="GridCell.Tab.1.center/0.0.1440.920@0.0.1440.920" timestamp="1594972042348" />
+    <state width="1323" height="312" key="GridCell.Tab.1.left" timestamp="1595061435424">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1867" height="256" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594975937499" />
-    <state width="1867" height="256" key="GridCell.Tab.1.right" timestamp="1594975937499">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1323" height="312" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1595061435424" />
+    <state width="1395" height="369" key="GridCell.Tab.1.left/0.0.1440.920@0.0.1440.920" timestamp="1594972042347" />
+    <state width="1323" height="312" key="GridCell.Tab.1.right" timestamp="1595061435424">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1867" height="256" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594975937499" />
+    <state width="1323" height="312" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1595061435424" />
+    <state width="1395" height="369" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1594972042348" />
     <state x="329" y="77" key="SettingsEditor" timestamp="1594971411006">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="329" y="77" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594971411006" />
+    <state x="476" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595051936977">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="476" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1595051936977" />
   </component>
 </project>

@@ -1,8 +1,5 @@
 package cn.junang.sys.model;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
-import org.springframework.format.annotation.DateTimeFormat;
-
 import java.util.Date;
 
 public class Stock_outinfo {
@@ -76,8 +73,6 @@ public class Stock_outinfo {
      *
      * @mbg.generated
      */
-    @DateTimeFormat(pattern = "yyyy-MM-dd")
-    @JsonFormat(pattern = "yyyy-MM-dd")
     private Date createTime;
 
     /**

@@ -1,8 +1,5 @@
 package cn.junang.sys.model;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
-import org.springframework.format.annotation.DateTimeFormat;
-
 import java.util.Date;
 
 public class Pur_application {
@@ -22,8 +19,6 @@ public class Pur_application {
      *
      * @mbg.generated
      */
-    @DateTimeFormat(pattern = "yyyy-MM-dd")
-    @JsonFormat(pattern = "yyyy-MM-dd")
     private Date data;
 
     /**

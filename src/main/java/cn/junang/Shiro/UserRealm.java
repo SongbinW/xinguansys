@@ -1,8 +1,8 @@
 package cn.junang.Shiro;
 
-import cn.junang.utils.JWTUtils;
 import cn.junang.sys.dao.ResourcesDao;
 import cn.junang.sys.dao.RoleDao;
+import cn.junang.utils.JWTUtils;
 import cn.junang.sys.mapper.SysUserMapper;
 import cn.junang.sys.model.SysRole;
 import cn.junang.sys.model.SysUser;
