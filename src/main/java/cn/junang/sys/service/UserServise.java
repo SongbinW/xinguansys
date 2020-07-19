@@ -20,4 +20,6 @@ public interface UserServise {
     R info();
 
     R delete(Long id);
+
+    R updataUserState(Long id, Boolean isvaild);
 }

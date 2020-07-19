@@ -100,6 +100,15 @@ public class UserServiseImpl extends BaseService implements UserServise {
         return R.ok();
     }
 
+    @Override
+    public R updataUserState(Long id, Boolean isvaild) {
+        SysUser user = new SysUser();
+        user.setId(id);
+        user.setIsvaild(isvaild);
+        sysUserMapper.updateByPrimaryKeySelective(user);
+        return R.ok();
+    }
+
     private Boolean isUserExist(String username) {
         SysUserExample example = new SysUserExample();
         example.createCriteria().andIsdelEqualTo(false)

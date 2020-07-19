@@ -28,10 +28,16 @@ public class UserController {
         return userServise.getUser(username, pageBean);
     }
 
+    @PutMapping("/{id}/{isvaild}")
+    public R updateUserState(@PathVariable("id") Long id, @PathVariable("isvaild") Boolean isvaild) {
+        return userServise.updataUserState(id, isvaild);
+    }
+
     @PostMapping
     public R addUser(@RequestBody SysUser user) {
         return userServise.addUser(user);
     }
+
     @DeleteMapping("/{Id}")
     public R delete(@PathVariable("Id") Long id) {
         return userServise.delete(id);
@@ -41,10 +47,12 @@ public class UserController {
     public R editUser(@RequestBody SysUser user) {
         return userServise.editUser(user);
     }
+
     @PostMapping("login")
     public R login(String username,String password){
         return userServise.login(username,password);
     }
+
     @GetMapping("info")
     public R info(){
         return userServise.info();
