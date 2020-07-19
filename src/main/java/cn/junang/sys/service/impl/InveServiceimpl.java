@@ -42,9 +42,6 @@ public class InveServiceimpl extends BaseService implements InveService {
 
     @Override
     public R addInve(InventoryInfo inventoryInfo) {
-        if (isInveExist(inventoryInfo.getSupName())) {
-            return R.error(RCode.INVE_NAME_REPEAT);
-        }
         inventoryInfoMapper.insertSelective(inventoryInfo);
         return R.ok();
     }
@@ -53,9 +50,6 @@ public class InveServiceimpl extends BaseService implements InveService {
     public R editInve(InventoryInfo inventoryInfo) {
         InventoryInfo info = inventoryInfoMapper.selectByPrimaryKey(inventoryInfo.getId());
         if (!(info.getSupName()).equals(inventoryInfo.getSupName())){
-            if (isInveExist(inventoryInfo.getSupName())){
-                return R.error(RCode.INVE_NAME_REPEAT);
-            }
         }
         inventoryInfoMapper.updateByPrimaryKeySelective(info);
         return R.ok();

@@ -51,9 +51,6 @@ public class MateCaServiceImpl extends BaseService implements MateCaService {
 
     @Override
     public R addMate(Matecategory matecategory) {
-        if (isMateExist(matecategory.getSupName())) {
-            return R.error(RCode.INVE_NAME_REPEAT);
-        }
         matecategoryMapper.insertSelective(matecategory);
         return R.ok();
     }
@@ -62,9 +59,6 @@ public class MateCaServiceImpl extends BaseService implements MateCaService {
     public R editMate(Matecategory matecategory) {
         Matecategory mate = matecategoryMapper.selectByPrimaryKey(matecategory.getId());
         if (!(mate.getSupName()).equals(matecategory.getSupName())){
-            if (isMateExist(matecategory.getSupName())){
-                return R.error(RCode.INVE_NAME_REPEAT);
-            }
         }
         matecategoryMapper.updateByPrimaryKeySelective(mate);
         return R.ok();

@@ -3,12 +3,8 @@ package cn.junang.sys.service.impl;
 import cn.junang.common.model.PageBean;
 import cn.junang.common.model.PageResult;
 import cn.junang.common.model.R;
-import cn.junang.common.model.RCode;
 import cn.junang.common.service.BaseService;
-import cn.junang.sys.mapper.Pur_applicationMapper;
 import cn.junang.sys.mapper.Pur_informationMapper;
-import cn.junang.sys.model.InventoryInfo;
-import cn.junang.sys.model.InventoryInfoExample;
 import cn.junang.sys.model.Pur_information;
 import cn.junang.sys.model.Pur_informationExample;
 import cn.junang.sys.service.PurInfoService;
@@ -52,9 +48,6 @@ public class Pur_InfoServiceImpl extends BaseService implements PurInfoService {
 
     @Override
     public R addPur(Pur_information purinformation) {
-        if (isInveExist(purinformation.getPurNumber())) {
-            return R.error(RCode.INVE_NAME_REPEAT);
-        }
         purinformationMapper.insertSelective(purinformation);
         return R.ok();
     }
