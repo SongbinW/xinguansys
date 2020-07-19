@@ -8,6 +8,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @SpringBootApplication
 @EnableSwagger2
 @MapperScan({"cn.junang.*.mapper","cn.junang.*.dao"})
+/*哈哈*/
 public class XinguanApplication {
 
     public static void main(String[] args) {
