@@ -32,6 +32,10 @@ public class UserController {
     public R addUser(@RequestBody SysUser user) {
         return userServise.addUser(user);
     }
+    @DeleteMapping("/{Id}")
+    public R delete(@PathVariable("Id") Long id) {
+        return userServise.delete(id);
+    }
 
     @PutMapping
     public R editUser(@RequestBody SysUser user) {

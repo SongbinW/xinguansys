@@ -18,4 +18,6 @@ public interface UserServise {
     R login(String username, String password);
 
     R info();
+
+    R delete(Long id);
 }

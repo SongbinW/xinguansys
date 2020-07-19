@@ -94,6 +94,12 @@ public class UserServiseImpl extends BaseService implements UserServise {
         return R.ok(getUser());
     }
 
+    @Override
+    public R delete(Long id) {
+        sysUserMapper.deleteByPrimaryKey(id);
+        return R.ok();
+    }
+
     private Boolean isUserExist(String username) {
         SysUserExample example = new SysUserExample();
         example.createCriteria().andIsdelEqualTo(false)
