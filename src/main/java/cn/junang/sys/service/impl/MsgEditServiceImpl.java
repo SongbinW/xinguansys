@@ -3,6 +3,7 @@ package cn.junang.sys.service.impl;
 import cn.junang.common.model.R;
 import cn.junang.sys.mapper.MsgInfoMapper;
 import cn.junang.sys.model.MsgInfo;
+import cn.junang.sys.model.MsgInfoExample;
 import cn.junang.sys.service.MsgEditService;
 import org.springframework.stereotype.Service;
 
@@ -22,8 +23,9 @@ public class MsgEditServiceImpl implements MsgEditService {
 
     @Override
     public R getMsgData() {
-        List<MsgInfo> msgInfo = msgInfoMapper.selectByExample(null);
-        return R.ok(msgInfo);
+        MsgInfoExample Example = new MsgInfoExample();
+        List<MsgInfo> msgInfos = msgInfoMapper.selectByExample(Example);
+        return R.ok(msgInfos);
     }
 
     @Override
