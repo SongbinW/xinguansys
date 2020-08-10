@@ -1,4 +1,4 @@
-package cn.junang.Shiro;
+package cn.junang.shiro;
 
 import cn.junang.common.model.R;
 import cn.junang.common.model.RCode;
@@ -21,7 +21,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 /**
- * @author Mr.s°
+ * @author wchen
  * @create 2020-07-10 15:25
  */
 @Component

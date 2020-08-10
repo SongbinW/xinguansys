@@ -6,7 +6,7 @@ import cn.junang.sys.service.InformationService;
 import org.springframework.web.bind.annotation.*;
 
 /**
- * @author Mr.s°
+ * @author wchen
  * @create 2020-07-14 9:39
  */
 @RestController

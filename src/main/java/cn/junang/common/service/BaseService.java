@@ -4,7 +4,7 @@ import cn.junang.vo.ActiveUser;
 import org.apache.shiro.SecurityUtils;
 
 /**
- * @author songbin
+ * @author wchen
  * @create 2020-06-29 20:48
  */
 public abstract class BaseService {

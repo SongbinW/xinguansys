@@ -25,8 +25,76 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28dfdcaa-4d5a-45c0-b0b6-7f3fcbf942c7" name="Default Changelist" comment="">
+    <list default="true" id="28dfdcaa-4d5a-45c0-b0b6-7f3fcbf942c7" name="Default Changelist" comment="逻辑层">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/Shiro/JWTFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/shiro/JWTFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/Shiro/JWTToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/shiro/JWTToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/Shiro/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/shiro/ShiroConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/Shiro/UserRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/shiro/UserRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/common/exception/RRExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/common/exception/RRExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/common/exception/ServiceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/common/exception/ServiceException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/common/model/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/common/model/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/common/model/PageBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/common/model/PageBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/common/model/PageResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/common/model/PageResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/common/model/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/common/model/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/common/model/RCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/common/model/RCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/common/service/BaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/common/service/BaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/common/web/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/common/web/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/controller/ApplicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/controller/ApplicationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/controller/DonationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/controller/DonationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/controller/InformationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/controller/InformationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/controller/InveController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/controller/InveController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/controller/MateCaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/controller/MateCaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/controller/PurInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/controller/PurInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/controller/ReloResourceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/controller/ReloResourceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/controller/ResourcesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/controller/ResourcesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/controller/RoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/controller/ScrapController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/controller/ScrapController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/controller/StockController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/controller/StockController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/controller/UserRoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/controller/UserRoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/controller/WareController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/controller/WareController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/dao/CreateId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/dao/CreateId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/dao/ReloResourceDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/dao/ReloResourceDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/dao/ResourcesDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/dao/ResourcesDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/dao/RoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/dao/RoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/dao/UserRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/dao/UserRoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/ApplicationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/ApplicationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/DonationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/DonationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/InformationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/InformationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/InveService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/InveService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/MateCaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/MateCaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/PurInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/PurInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/ReloResourceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/ReloResourceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/ResourcesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/ResourcesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/ScrapService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/ScrapService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/StockService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/StockService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/UserRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/UserRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/UserServise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/UserServise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/WareService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/WareService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/impl/ApplicationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/impl/ApplicationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/impl/DonationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/impl/DonationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/impl/InformationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/impl/InformationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/impl/InveServiceimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/impl/InveServiceimpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/impl/MateCaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/impl/MateCaServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/impl/Pur_InfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/impl/Pur_InfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/impl/ReloResourceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/impl/ReloResourceServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/impl/ResourcesServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/impl/ResourcesServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/impl/ScrapServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/impl/ScrapServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/impl/StockServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/impl/StockServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/impl/UserRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/impl/UserRoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/impl/UserServiseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/impl/UserServiseImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/impl/WareServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/sys/service/impl/WareServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/utils/JWTUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/utils/JWTUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/utils/MD5Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/utils/MD5Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/vo/ActiveUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/vo/ActiveUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/vo/MateCaVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/vo/MateCaVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/vo/MenuNodeVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/vo/MenuNodeVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/vo/RoleVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/vo/RoleVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/vo/UserInputVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/vo/UserInputVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/junang/vo/UserOutputVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/junang/vo/UserOutputVo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,7 +196,9 @@
       <workItem from="1595334727602" duration="466000" />
       <workItem from="1596005493064" duration="302000" />
       <workItem from="1596005911440" duration="293000" />
-      <workItem from="1596008709664" duration="3214000" />
+      <workItem from="1596008709664" duration="5255000" />
+      <workItem from="1596104906113" duration="1282000" />
+      <workItem from="1597055142356" duration="1120000" />
     </task>
     <task id="LOCAL-00001" summary="王晨提交7.18部门">
       <created>1595061707492</created>
@@ -179,11 +249,28 @@
       <option name="project" value="LOCAL" />
       <updated>1595173377033</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="逻辑层">
+      <created>1596020224765</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1596020224765</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -217,7 +304,8 @@
     <MESSAGE value="启动类增加哈哈注解，下载请删除" />
     <MESSAGE value="增加add包" />
     <MESSAGE value="更改增加入库逻辑层" />
-    <option name="LAST_COMMIT_MESSAGE" value="更改增加入库逻辑层" />
+    <MESSAGE value="逻辑层" />
+    <option name="LAST_COMMIT_MESSAGE" value="逻辑层" />
   </component>
   <component name="WindowStateProjectService">
     <state x="475" y="227" key="#Scopes" timestamp="1595334962600">
@@ -240,6 +328,10 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="327" y="46" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1595173375152" />
+    <state x="92" y="92" width="1182" height="554" key="DiffContextDialog" timestamp="1596020315297">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="92" y="92" width="1182" height="554" key="DiffContextDialog/0.0.1366.738@0.0.1366.738" timestamp="1596020315297" />
     <state x="489" y="152" key="FileChooserDialogImpl" timestamp="1596005993246">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -254,45 +346,45 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="365" y="157" key="Github.UntrackedFilesDialog/0.0.1440.920@0.0.1440.920" timestamp="1594969085601" />
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1596009955028">
+    <state width="1323" height="288" key="GridCell.Tab.0.bottom" timestamp="1596031566730">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1596009955028" />
+    <state width="1323" height="288" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1596031566730" />
     <state width="1395" height="242" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1595173782217" />
-    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1596009955028">
+    <state width="1323" height="288" key="GridCell.Tab.0.center" timestamp="1596031566730">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1596009955028" />
+    <state width="1323" height="288" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1596031566730" />
     <state width="1395" height="242" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1595173782215" />
-    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1596009955027">
+    <state width="1323" height="288" key="GridCell.Tab.0.left" timestamp="1596031566729">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1596009955027" />
+    <state width="1323" height="288" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1596031566729" />
     <state width="1395" height="242" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1595173782215" />
-    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1596009955028">
+    <state width="1323" height="288" key="GridCell.Tab.0.right" timestamp="1596031566730">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1596009955028" />
+    <state width="1323" height="288" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1596031566730" />
     <state width="1395" height="242" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1595173782215" />
-    <state width="1323" height="182" key="GridCell.Tab.1.bottom" timestamp="1596009955028">
+    <state width="1323" height="288" key="GridCell.Tab.1.bottom" timestamp="1596031566730">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1596009955028" />
+    <state width="1323" height="288" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1596031566730" />
     <state width="1395" height="242" key="GridCell.Tab.1.bottom/0.0.1440.920@0.0.1440.920" timestamp="1595173782217" />
-    <state width="1323" height="182" key="GridCell.Tab.1.center" timestamp="1596009955028">
+    <state width="1323" height="288" key="GridCell.Tab.1.center" timestamp="1596031566730">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1596009955028" />
+    <state width="1323" height="288" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1596031566730" />
     <state width="1395" height="242" key="GridCell.Tab.1.center/0.0.1440.920@0.0.1440.920" timestamp="1595173782217" />
-    <state width="1323" height="182" key="GridCell.Tab.1.left" timestamp="1596009955028">
+    <state width="1323" height="288" key="GridCell.Tab.1.left" timestamp="1596031566730">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1596009955028" />
+    <state width="1323" height="288" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1596031566730" />
     <state width="1395" height="242" key="GridCell.Tab.1.left/0.0.1440.920@0.0.1440.920" timestamp="1595173782217" />
-    <state width="1323" height="182" key="GridCell.Tab.1.right" timestamp="1596009955028">
+    <state width="1323" height="288" key="GridCell.Tab.1.right" timestamp="1596031566730">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1596009955028" />
+    <state width="1323" height="288" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1596031566730" />
     <state width="1395" height="242" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1595173782217" />
     <state x="263" y="103" key="IDE.errors.dialog" timestamp="1595301259725">
       <screen x="0" y="0" width="1366" height="738" />
@@ -303,14 +395,18 @@
     </state>
     <state x="186" y="27" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1596009485006" />
     <state x="329" y="77" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594971411006" />
-    <state x="290" y="127" key="Vcs.Push.Dialog.v2" timestamp="1595173383703">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1595062921801" />
-    <state x="290" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1595173383703" />
-    <state x="476" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595051936977">
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1596020233238">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="476" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1595051936977" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1596020233238" />
+    <state x="290" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1595173383703" />
+    <state x="476" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596020196555">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="476" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1596020196555" />
+    <state x="339" y="165" key="run.anything.popup" timestamp="1597055346145">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1597055346145" />
   </component>
 </project>

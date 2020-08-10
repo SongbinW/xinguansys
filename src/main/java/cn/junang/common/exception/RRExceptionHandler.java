@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.servlet.NoHandlerFoundException;
 
 /**
- * @auther fengQH
+ * @auther wchen
  * @create 2020-07-14
  */
 @RestControllerAdvice

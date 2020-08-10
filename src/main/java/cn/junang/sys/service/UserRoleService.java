@@ -3,7 +3,7 @@ package cn.junang.sys.service;
 import cn.junang.common.model.R;
 
 /**
- * @author Mr.s°
+ * @author wchen
  * @create 2020-07-03 10:29
  */
 public interface UserRoleService {

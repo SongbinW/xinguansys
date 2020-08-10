@@ -2,13 +2,13 @@ package cn.junang.sys.controller;
 
 import cn.junang.common.model.PageBean;
 import cn.junang.common.model.R;
-import cn.junang.wpl.service.WareService;
+import cn.junang.sys.service.WareService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @author wupl
+ * @author wchen
  * @create 2020-07-10 12:05
  */
 @RestController

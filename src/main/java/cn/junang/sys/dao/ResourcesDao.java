@@ -7,7 +7,7 @@ import org.apache.ibatis.annotations.Select;
 import java.util.List;
 
 /**
- * @author songbin
+ * @author wchen
  * @create 2020-06-29 17:27
  */
 public interface ResourcesDao {

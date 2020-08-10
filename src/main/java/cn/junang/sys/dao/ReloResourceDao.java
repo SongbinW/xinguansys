@@ -5,7 +5,7 @@ import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Param;
 
 /**
- * @author Mr.s°
+ * @author wchen
  * @create 2020-07-06 9:44
  */
 public interface ReloResourceDao {

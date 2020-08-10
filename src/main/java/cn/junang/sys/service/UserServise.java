@@ -5,7 +5,7 @@ import cn.junang.common.model.R;
 import cn.junang.sys.model.SysUser;
 
 /**
- * @author songbin
+ * @author wchen
  * @create 2020-07-01 9:08
  */
 public interface UserServise {

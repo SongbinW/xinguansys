@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author Mr.s°
+ * @author wchen
  * @create 2020-07-03 9:10
  */
 public interface RoleDao {

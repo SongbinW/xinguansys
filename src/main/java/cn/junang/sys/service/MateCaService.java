@@ -6,7 +6,7 @@ import cn.junang.sys.model.Matecategory;
 import cn.junang.vo.MateCaVo;
 
 /**
- * @author wupl
+ * @author wchen
  * @create 2020-07-14 14:01
  */
 public interface MateCaService {

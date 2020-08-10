@@ -6,7 +6,7 @@ import javax.validation.constraints.NotBlank;
 import java.util.Date;
 
 /**
- * @author Mr.s°
+ * @author wchen
  * @create 2020-2020/7/17 14:36
  */
 public class MateCaVo {

@@ -9,7 +9,7 @@ import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.web.bind.annotation.*;
 
 /**
- * @author songbin
+ * @author wchen
  * @create 2020-07-01 9:10
  */
 @RestController

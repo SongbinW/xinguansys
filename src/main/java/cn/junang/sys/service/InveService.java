@@ -5,7 +5,7 @@ import cn.junang.common.model.R;
 import cn.junang.sys.model.InventoryInfo;
 
 /**
- * @author wupl
+ * @author wchen
  * @create 2020-07-10 22:00
  */
 public interface InveService {

@@ -3,7 +3,7 @@ package cn.junang.vo;
 import java.util.Date;
 
 /**
- * @author songbin
+ * @author wchen
  * @create 2020-07-01 10:00
  */
 public class UserOutputVo {

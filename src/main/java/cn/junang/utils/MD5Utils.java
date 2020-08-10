@@ -3,7 +3,7 @@ package cn.junang.utils;
 import org.apache.shiro.crypto.hash.SimpleHash;
 
 /**
- * @auther fengQH
+ * @auther wchen
  * @create 2020-07-14
  */
 public class MD5Utils {
@@ -17,7 +17,7 @@ public class MD5Utils {
         SimpleHash simpleHash = new SimpleHash(algorithmName,source,salt,hashIterations);
         return simpleHash+"";
     }
-    //盐迟
+    //盐池
     public static void main(String[] args) {
 
         System.out.println(  md5Encryption("123456","1"));

@@ -7,7 +7,7 @@ import cn.junang.vo.MenuNodeVo;
 import java.util.List;
 
 /**
- * @author songbin
+ * @author wchen
  * @create 2020-06-29 17:33
  */
 public interface ResourcesService {

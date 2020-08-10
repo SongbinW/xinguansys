@@ -1,4 +1,4 @@
-package cn.junang.Shiro;
+package cn.junang.shiro;
 
 import cn.junang.sys.dao.ResourcesDao;
 import cn.junang.sys.dao.RoleDao;
@@ -19,8 +19,8 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 /**
- * @author Mr.s°
- * @create 2020-07-10 10:27
+ * @author wchen
+ * @create 2020-07-14 10:27
  */
 @Service
 public class UserRealm extends AuthorizingRealm {
@@ -35,7 +35,7 @@ public class UserRealm extends AuthorizingRealm {
     }
 
     /**
-     * 大坑！，必须重写此方法，不然Shiro会报错
+     * 必须重写此方法，不然Shiro会报错
      */
     @Override
     public boolean supports(AuthenticationToken token) {

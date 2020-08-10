@@ -8,14 +8,14 @@ import cn.junang.sys.mapper.StockOutinfoMapper;
 import cn.junang.sys.model.Pur_information;
 import cn.junang.sys.model.StockOutinfo;
 import cn.junang.sys.model.StockOutinfoExample;
-import cn.junang.wpl.service.StockService;
+import cn.junang.sys.service.StockService;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
 /**
- * @author wupl
+ * @author wchen
  * @create 2020-07-16 23:41
  */
 @Service

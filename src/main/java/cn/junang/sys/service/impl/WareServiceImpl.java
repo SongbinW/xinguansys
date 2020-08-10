@@ -7,13 +7,13 @@ import cn.junang.common.service.BaseService;
 import cn.junang.sys.mapper.WareInfoMapper;
 import cn.junang.sys.model.WareInfo;
 import cn.junang.sys.model.WareInfoExample;
-import cn.junang.wpl.service.WareService;
+import cn.junang.sys.service.WareService;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.springframework.stereotype.Service;
 
 /**
- * @author wupl
+ * @author wchen
  * @create 2020-07-10 12:04
  */
 @Service

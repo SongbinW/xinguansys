@@ -8,7 +8,7 @@ import cn.junang.sys.service.PurInfoService;
 import org.springframework.web.bind.annotation.*;
 
 /**
- * @author wupl
+ * @author wchen
  * @create 2020-07-16 21:09
  */
 @RestController

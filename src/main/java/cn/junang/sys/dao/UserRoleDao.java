@@ -4,7 +4,7 @@ import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Param;
 
 /**
- * @author Mr.s°
+ * @author wchen
  * @create 2020-07-03 10:48
  */
 public interface UserRoleDao {

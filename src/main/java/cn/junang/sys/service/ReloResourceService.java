@@ -4,7 +4,7 @@ import cn.junang.common.model.R;
 import cn.junang.sys.model.SysRoleResources;
 
 /**
- * @author Mr.s°
+ * @author wchen
  * @create 2020-07-06 9:27
  */
 public interface ReloResourceService {

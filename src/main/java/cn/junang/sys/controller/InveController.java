@@ -7,7 +7,7 @@ import cn.junang.sys.service.InveService;
 import org.springframework.web.bind.annotation.*;
 
 /**
- * @author wupl
+ * @author wchen
  * @create 2020-07-10 22:10
  */
 @RestController

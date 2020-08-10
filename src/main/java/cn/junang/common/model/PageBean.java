@@ -3,7 +3,7 @@ package cn.junang.common.model;
 import lombok.Data;
 
 /**
- * @author songbin
+ * @author wchen
  * @create 2020-07-01 9:19
  */
 @Data

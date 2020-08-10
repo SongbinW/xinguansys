@@ -5,7 +5,7 @@ import cn.junang.common.model.R;
 import cn.junang.sys.model.Pur_information;
 
 /**
- * @author wupl
+ * @author wchen
  * @create 2020-07-16 21:07
  */
 public interface PurInfoService {

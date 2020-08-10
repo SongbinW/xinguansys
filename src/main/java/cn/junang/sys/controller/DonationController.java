@@ -6,7 +6,7 @@ import cn.junang.sys.service.DonationService;
 import org.springframework.web.bind.annotation.*;
 
 /**
- * @author Mr.s°
+ * @author wchen
  * @create 2020-07-09 15:44
  */
 @RestController

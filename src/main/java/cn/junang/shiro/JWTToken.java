@@ -1,9 +1,9 @@
-package cn.junang.Shiro;
+package cn.junang.shiro;
 
 import org.apache.shiro.authc.AuthenticationToken;
 
 /**
- * @author Mr.s°
+ * @author wchen
  * @create 2020-07-10 14:12
  */
 public class JWTToken implements AuthenticationToken {

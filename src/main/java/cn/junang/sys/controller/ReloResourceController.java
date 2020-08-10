@@ -6,7 +6,7 @@ import cn.junang.sys.service.ReloResourceService;
 import org.springframework.web.bind.annotation.*;
 
 /**
- * @author Mr.s°
+ * @author wchen
  * @create 2020-07-06 9:28
  */
 @RestController

@@ -1,7 +1,7 @@
 package cn.junang.common.model;
 
 /**
- * @author songbin
+ * @author wchen
  * @create 2020-06-29 20:46
  */
 public interface Constant {

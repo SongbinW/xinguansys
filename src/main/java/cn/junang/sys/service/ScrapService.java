@@ -4,7 +4,7 @@ import cn.junang.common.model.PageBean;
 import cn.junang.common.model.R;
 
 /**
- * @author Mr.s°
+ * @author wchen
  * @create 2020-07-10 10:52
  */
 public interface ScrapService {

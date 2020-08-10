@@ -1,4 +1,4 @@
-package cn.junang.Shiro;
+package cn.junang.shiro;
 
 import org.apache.shiro.mgt.DefaultSessionStorageEvaluator;
 import org.apache.shiro.mgt.DefaultSubjectDAO;
@@ -15,7 +15,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @auther fengQH
+ * @auther wchen
  * @create 2020-07-14
  */
 @Configuration

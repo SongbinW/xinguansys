@@ -10,7 +10,7 @@ import com.auth0.jwt.interfaces.JWTVerifier;
 import java.util.Date;
 
 /**
- * @author Mr.s°
+ * @author wchen
  * @create 2020-07-10 14:17
  */
 public class JWTUtils {

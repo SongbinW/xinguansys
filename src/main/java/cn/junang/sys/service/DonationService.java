@@ -4,7 +4,7 @@ import cn.junang.common.model.PageBean;
 import cn.junang.common.model.R;
 
 /**
- * @author Mr.s°
+ * @author wchen
  * @create 2020-07-09 15:42
  */
 public interface DonationService {

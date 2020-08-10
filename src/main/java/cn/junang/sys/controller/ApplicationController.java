@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @author Mr.s°
+ * @author wchen
  * @create 2020-2020/7/17 8:38
  */
 @RestController

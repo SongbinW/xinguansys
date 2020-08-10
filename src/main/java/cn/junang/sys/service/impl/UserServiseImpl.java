@@ -1,7 +1,7 @@
 package cn.junang.sys.service.impl;
 
 import cn.junang.utils.JWTUtils;
-import cn.junang.Shiro.JWTToken;
+import cn.junang.shiro.JWTToken;
 import cn.junang.common.exception.ServiceException;
 import cn.junang.common.model.*;
 import cn.junang.common.service.BaseService;
@@ -20,7 +20,7 @@ import org.springframework.util.StringUtils;
 import java.util.List;
 
 /**
- * @author songbin
+ * @author wchen
  * @create 2020-07-01 9:08
  */
 @Service

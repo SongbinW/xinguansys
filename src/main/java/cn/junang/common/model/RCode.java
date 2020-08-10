@@ -5,7 +5,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 /**
- * @author songbin
+ * @author wchen
  * @create 2020-06-29 20:35
  */
 @NoArgsConstructor

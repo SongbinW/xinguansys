@@ -2,11 +2,11 @@ package cn.junang.sys.controller;
 
 import cn.junang.common.model.PageBean;
 import cn.junang.common.model.R;
-import cn.junang.wpl.service.StockService;
+import cn.junang.sys.service.StockService;
 import org.springframework.web.bind.annotation.*;
 
 /**
- * @author wupl
+ * @author wchen
  * @create 2020-07-16 23:43
  */
 @RestController

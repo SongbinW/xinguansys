@@ -4,7 +4,7 @@ import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 
 /**
- * @author wupl
+ * @author wchen
  * @create 2020-07-16 16:18
  */
 public interface CreateId {
